@@ -1,0 +1,17 @@
+Turbo Coding Simulation Package
+    DATE: 13 MARCH 2017
+    AUTHOR: RYAN T. DEMUSE
+    
+This package is intended to be used as a simulation of turbo encoding and decoding 
+over a channel with Additive White Gaussian Noise. It contains several encoder and
+decoder architectures in encoder/decoder.c encoders3/decoders3.c and
+encoder4/decoder4.c. The channel characterization is included in the files of the
+same name. The debug file includes debugging functions as well as some helpful
+utilities. A Makefile is also included. 
+
+DISCLAIMER: This code has not yet been extensively tested and edited. I do not
+    claim that it will work 100% as intended. I have already encountered some
+    flaws and errors that will be fixed as soon as I have time to tend to them.
+    I am providing this code as a helpful tool as I have yet to find a turbo coding
+    simulation package that includes several encoder/decoder architectures and
+    carefully considers the construction of interleavers. 

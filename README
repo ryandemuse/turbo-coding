@@ -7,7 +7,8 @@ over a channel with Additive White Gaussian Noise. It contains several encoder a
 decoder architectures in encoder/decoder.c encoders3/decoders3.c and
 encoder4/decoder4.c. The channel characterization is included in the files of the
 same name. The debug file includes debugging functions as well as some helpful
-utilities. A Makefile is also included. 
+utilities. A Makefile is also included. The Makefile is structured so that all of 
+the files have to be in the same folder in order to compile into an executable.
 
 DISCLAIMER: This code has not yet been extensively tested and edited. I do not
     claim that it will work 100% as intended. I have already encountered some
